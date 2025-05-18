@@ -1,0 +1,1 @@
+{"name":"Local: Flip Columns","url":"c:\\Users\\Hasibul\\Desktop\\Problems\\Flip Columns.cpp","tests":[{"id":1747566154991,"input":"6 3 3\n1 0 0\n1 0 1\n1 0 0\n1 0 0\n1 0 1\n1 0 0","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Hasibul\\Desktop\\Problems\\Flip Columns.cpp","group":"local","local":true}
