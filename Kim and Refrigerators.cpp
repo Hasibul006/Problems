@@ -8,14 +8,14 @@ using namespace std;
 
 void optimalPath(vector<pair<int, int>> nodes, int startX, int startY, int endX, int endY, vector<bool> &visited, int currDist, int currIndex, int &minDist)
 {
-    if (currIndex == (int)nodes.size())
+    if (currIndex == nodes.size())
     {
         currDist += abs(startX - endX) + abs(startY - endY);
         minDist = min(minDist, currDist);
         return;
     }
 
-    for (int i = 0; i < (int)nodes.size(); i++)
+    for (int i = 0; i < nodes.size(); i++)
     {
         if (!visited[i])
         {
