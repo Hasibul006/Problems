@@ -8,7 +8,7 @@ void findingGoal(vector<vector<int>> &mountain, vector<vector<int>> &visited, in
     visited[i][j] = 1;
     if (mountain[i][j] == 3)
     {
-        // cout << i << " " << j << endl;
+        cout << i << " " << j << " " << level << endl;
         f = true;
         return;
     }
